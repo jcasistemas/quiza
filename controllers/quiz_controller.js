@@ -33,8 +33,9 @@ exports.index = function(req, res){
 			res.render('quizes/index.ejs', {search: search,quizes:quizes, errors: []});
 		});
 	}else{ */
+		search = false;
 		models.Quiz.findAll().then(function(quizes){
-			res.render('quizes/index.ejs', {search: search,quizes:quizes, errors: []});
+			res.render('quizes/index', {search: search,quizes:quizes, errors: []});
 		}); 
 //	}
 };
