@@ -1,0 +1,73 @@
+* {margin:0; padding: 0;}
+
+body { font: 16px Georgia, serif;}
+
+#page-wrap	{margin: 2% auto; color: white;}
+#page-wrap>.main	{border: 1px solid #999;padding: 1%; margin-bottom: 1px;color: black;}
+
+section > div {padding: 20px}
+header, nav, section {background: #eee; text-align: center;}
+footer {background: #eee; text-align: center;}
+nav span {margin: 0px 10px 0px 0px;}
+hr{
+	margin-left: 20%;
+    margin-right: 20%;
+}
+
+.business-name{
+	font-weight: bold;
+	color: #fb8955;
+}
+.profile-image{
+	width:100px;
+	height: 150px;
+	background-image: url("/quizes/profileimage");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+
+.author-table {
+    margin-left: 38%;
+    text-align: center;
+    width: 100%;
+}
+
+.author-table td {
+    float: left; 
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+nav span {margin:0px 10px 0px 0px;}
+#ErrorMsgs {color: #f61; font-size: smaler}
+
+.topic{
+	font-weight: bold;
+}
+
+.topic.otro{
+	color: brown;
+}
+.topic.humanidades{
+	color: grey;
+}
+.topic.ocio{
+	color: red;
+}
+.topic.ciencia{
+	color: green;
+}
+.topic.tecnologia{
+	color: orange;
+}
+
+.right {
+    float: right;
+    text-align: right;
+    width: 100%;
+}
+
+.right a {
+    margin-left: 5px;
+}
